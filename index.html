@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/notes">Notes</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Welcome to our Home Page</h1>
+        <p>This was created to test out this Web Server I made with NodeJS with the ability to detect if pages are in this directory or nested directory based on the URL 😎</p>
+        <button id="openModal">Open Modal</button>
+
+        <dialog id="dialog">
+            <button id="closeModal" autofocus>Close</button>
+            You popped up the modal !!!
+        </dialog>
+    </main>
+</body>
+</html>
+
+<script src="/functionality/home.js"></script>

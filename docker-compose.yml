@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  node:
+    image: node:18
+    container_name: node_js
+    volumes:
+      - '.:/app'
+    working_dir: /app
+    tty: true
+    restart: always
+    ports:
+      - 80:3000
